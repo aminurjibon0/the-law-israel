@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*header start*/
+header {
+    border-bottom: 2px solid rgb(241, 241, 241);
+    padding: 8px 0;
+}
+.logo h1 {
+    color: #1DBF73;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-contact h3 {
+    color: #9d0000;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+.header-contact a {
+    text-decoration: none;
+    color: #1dbf73;
+    line-height: 1.2;
+    font-size: 34px;
+    font-weight: 700;
+}
+.header-img1 {
+    width: 110px;
+    margin: 0 10px;
+}
+.header-contact a i {
+    font-size: 28px;
+}
+.navbar-light .navbar-toggler {
+    box-shadow: none;
+}
+/*header end*/
+/* header menu start*/
+.menu {
+    margin-left: auto;
+}
+.menu li {
+    color: #848484;
+    padding: 17px 8px;
+    background: url(../images/nav-bg.jpg) no-repeat 0% 50%;
+    position: relative;
+    height: auto;
+}
+.menu li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #848484 !important;
+    transition: all .3s ease-in-out;
+}
+.menu li:hover a{
+    color: #1DBF73 !important;
+}
+a.logo-content {
+    font-weight: 700;
+}
+/* header menu enf */
+/* banner start */
+section.banner {
+    background: url(../images/new-york-city.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+}
+.banner-content h2 {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.banner-content a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background: #1DBF73;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 21px;
+    display: inline-block;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+}
+.banner-content a:hover{
+    background-color: #1DBF7E;
+}
+.banner-content {
+    background: #1dbf732b;
+    padding: 100px 0;
+}
+/* banner enf */
+/* personal injury start */
+.p_injury{
+    padding: 60px 0;
+}
+.p-injury-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.p-injury-heading hr {
+    width: 100px;
+    margin: 0 auto;
+    border-top: 5px solid #1dbf73;
+    opacity: 1;
+}
+.p-injury-heading {
+    margin-bottom: 70px;
+}
+.injury-content h2 {
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+/* personal injury*/
+/* non_profit start */
+.non_profit{
+    padding: 60px 0;
+}
+/* non_profit end */
+/* estate_planing start */
+.estate_planing{
+    padding: 60px 0;
+}
+/* estate_planing end */
+/* workers_compensationt start */
+.workers_compensationt{
+    padding: 60px 0;
+}
+/* workers_compensationt end */
+/* employment_law start */
+.employment_law{
+    padding: 60px 0;
+}
+/* employment_law end */
+/* employment_law start */
+.results{
+    padding: 60px 0;
+}
+/* employment_law end */
+/* footer start */
+footer {
+    padding: 8px 0;
+    background: #1DBF73;
+    color: #fff;
+}
+/* footer end */
